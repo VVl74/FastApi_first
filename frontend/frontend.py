@@ -10,7 +10,7 @@ st.header("Главная страница")
 if st.button("Вызвать GET /"):
     try:
         response = requests.get(f"{BACKEND_URL}/")
-        st.code(f"Ответ: {response.text}", language="text")
+        st.code(f"234: {response.text}324123", language="text")
     except Exception as e:
         st.error(f"Ошибка: {e}")
 
